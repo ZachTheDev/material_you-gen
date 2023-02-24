@@ -4210,7 +4210,7 @@ let MaterialThemeControl = class extends s {
 		super(...arguments)
 		this.showOptions = false
 		this.dark = localStorage.getItem("theme-dark") === "true"
-		this.color = localStorage.getItem("theme-color") || "#6750A4"
+		this.color = localStorage.getItem("theme-color") || "#FF5722"
 	}
 	render() {
 		return $`
